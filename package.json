@@ -5,7 +5,10 @@
   "version": "0.0.1",
   "license": "MIT",
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^0.8.1",
+    "googleapis": "^0.7.0"
+  },
   "devDependencies": {
     "mocha": "1.x",
     "hermes": "0.x"
