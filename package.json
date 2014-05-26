@@ -2,10 +2,13 @@
   "name": "hermes-hangout",
   "description": "A Hermes plugin for generating Google Hangouts.",
   "repository": "git://github.com/segmentio/hermes-hangout.git",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^0.8.1",
+    "googleapis": "^0.7.0"
+  },
   "devDependencies": {
     "mocha": "1.x",
     "hermes": "0.x"
